@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(18, 18, 105);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(9, 9, 71);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+
+
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+
+
+        }
+
+        .leftsection {
+            margin: 30px 0;
+
+            font-size: 2.5rem;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(194, 115, 50);
+            font-size: 1.04rem;
+        }
+
+        .text-grey {
+            color: aqua;
+
+        }
+
+        #element {
+            color: rgb(157, 87, 223);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 120vh;
+            height: 3px;
+            margin: 56px;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .verticalt title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical desc {
+            position: relative;
+            top: 86px;
+            color: blue;
+            width: 150px;
+            font-size: 9px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Avijit's Portfolio</div>
+            <div class="rihgt">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello guys my name is <span class="purple">Avijit Singh</span>!
+                <div>I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="ghee.png" alt="">
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</spanWhat></span>
+            <h1>Programming Qualifications
+                
+            </h1>
+            <h3>Avijit Singh is a Python programmer, developer, and web3 enthusiast. He is a Backend developer and has experience with Python and Django. He is currently working on Machine learning.  Avijit is from Indira Memorial English Medium High School.
+
+
+                Avijit is actively involved in open-source projects on GitHub and regularly shares knowledge and insights with the community on social media platforms like GitHub and Twitter. You can find more information about his projects and how to contact him in the links provided below.</h3>
+
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Programmer', 'Web Designer', '10th Student', 'ML Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+
+</html>
